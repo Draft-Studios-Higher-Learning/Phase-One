@@ -1,143 +1,159 @@
 /********** Fonts **********/
 @font-face {
-    font-family: Lato-Regular;
-    src: url('../fonts/Lato-Regular.ttf');
+  font-family: Lato-Regular;
+  src: url("../fonts/Lato-Regular.ttf");
 }
 
 @font-face {
-    font-family: Lato-Medium-Regular;
-    src: url('../fonts/Lato-Medium.ttf');
+  font-family: Lato-Medium-Regular;
+  src: url("../fonts/Lato-Medium.ttf");
 }
 
 @font-face {
-    font-family: Lato-Regular-Bold;
-    src: url('../fonts/Lato-Semibold.ttf');
+  font-family: Lato-Regular-Bold;
+  src: url("../fonts/Lato-Semibold.ttf");
 }
 
 @font-face {
-    font-family: Lato-Light-Regular;
-    src: url('../fonts/Lato-Light.ttf');
+  font-family: Lato-Light-Regular;
+  src: url("../fonts/Lato-Light.ttf");
 }
 
 @font-face {
-    font-family: Lato-Bold;
-    src: url('../fonts/Lato-Bold.ttf');
+  font-family: Lato-Bold;
+  src: url("../fonts/Lato-Bold.ttf");
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif !important;
-    width: 100%;
-    overflow-x: hidden !important;
+  font-family: "Times New Roman", Times, serif !important;
+  width: 100%;
+  overflow-x: hidden !important;
 }
 
 /********** Description **********/
 #description-container {
-    color: rgb(56, 61, 86);
+  color: rgb(56, 61, 86);
 }
 
 #description-container p {
-    font-family: Lato-Regular-Bold;
-    font-size: 1.8em;
+  font-family: Lato-Regular-Bold;
+  font-size: 1.8em;
 }
 
 #description-container span {
-    font-family: Lato-Bold;
+  font-family: Lato-Bold;
 }
 
 #subscribe {
-    text-decoration: underline;
-    font-size: 16px;
-    color: rgb(244, 125, 118);
-    font-size: 1.5em;
-    font-family: Lato-Bold;
+  text-decoration: underline;
+  font-size: 16px;
+  color: rgb(244, 125, 118);
+  font-size: 1.5em;
+  font-family: Lato-Bold;
 }
 
 @media (max-width: 540px) {
-    #description-container h1 {
-        font-size: 1.5em;
-        line-height: 1.1;
-    }
+  #description-container h1 {
+    font-size: 1.5em;
+    line-height: 1.1;
+  }
 
-    #description-container p,
-    #description-container span {
-        font-family: Lato-Regular-Bold;
-        font-size: 16px;
-    }
+  #description-container p,
+  #description-container span {
+    font-family: Lato-Regular-Bold;
+    font-size: 16px;
+  }
 
-    #subscribe {
-        font-size: 0.87em;
-    }
+  #subscribe {
+    font-size: 0.87em;
+  }
 }
 
 /********** About **********/
 #about-container {
-    background-color: rgb(56, 61, 86);
-    width: 100%;
-    color: rgb(249, 242, 225);
+  background-color: rgb(56, 61, 86);
+  width: 100%;
+  color: rgb(249, 242, 225);
 }
 
 #about-container h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 #about-container .row .col p span {
-    text-decoration: underline;
-    font-family: Lato-Regular-Bold;
+  text-decoration: underline;
+  font-family: Lato-Regular-Bold;
 }
 
 #about-container .row .col p {
-    font-family: Lato-Regular;
-    font-size: 1.4em;
+  font-family: Lato-Regular;
+  font-size: 1.4em;
 }
 
 /* Download btn id */
 #download-pdf {
-    font-family: Lato-Regular;
-    background-color: #F47D76;
-    color: rgb(249, 242, 225);
-    padding: 3% 0 3%;
+  font-family: Lato-Regular;
+  background-color: #f47d76;
+  color: rgb(249, 242, 225);
+  padding: 3% 0 3%;
 }
 
 /* Download btn class */
 .btn-default {
-    width: 75%;
+  width: 75%;
 }
 
 @media (max-width: 980px) {
-    #about-container h1 {
-        font-size: 1.5em;
-    }
+  #about-container h1 {
+    font-size: 1.5em;
+  }
 
-    #about-container .row .col p {
-        font-size: 0.95em;
-    }
+  #about-container .row .col p {
+    font-size: 0.95em;
+  }
 
-    #download-pdf {
-        font-size: 0.85em;
-        padding: 3.2% 0 3.2%;
-    }
+  #download-pdf {
+    font-size: 0.85em;
+    padding: 3.2% 0 3.2%;
+  }
 }
 
 /* SM screen size */
 @media (max-width: 540px) {
-    #about-container h1 {
-        font-size: 1.7em;
-    }
+  #about-container h1 {
+    font-size: 1.7em;
+  }
 
-    #about-container .col {
-        padding: 0 !important;
-    }
+  #about-container .col {
+    padding: 0 !important;
+  }
 
-    #download-pdf {
-        font-size: 0.85em;
-        padding: 4.3% 0 4.3%;
-    }
+  #download-pdf {
+    font-size: 0.85em;
+    padding: 4.3% 0 4.3%;
+  }
 
-    .btn-default {
-        width: 100%;
-    }
+  .btn-default {
+    width: 100%;
+  }
 
-    #about-container .row .col p {
-        font-size: 0.95em;
-    }
+  #about-container .row .col p {
+    font-size: 0.95em;
+  }
+}
+
+/********** Footer **********/
+footer {
+  background-color: rgb(56, 61, 86);
+  color: rgb(249, 242, 225);
+}
+
+footer p br {
+  display: none;
+}
+
+@media (max-width: 540px) {
+  footer p br {
+    display: block;
+  }
 }
