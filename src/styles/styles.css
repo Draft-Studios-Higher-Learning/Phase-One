@@ -205,10 +205,13 @@ body {
   font-family: Lato-Regular;
 }
 
-#contact-container input {
+#contact-container input,
+#contact-message textarea {
   color: grey;
 }
 
+#contact-message textarea:placeholder-shown,
+#contact-message textarea::-webkit-input-placeholder,
 #contact-container input:placeholder-shown,
 #contact-container input::-webkit-input-placeholder {
   color: grey !important;
@@ -216,7 +219,8 @@ body {
 }
 
 #contact-container input[type="text"],
-#contact-container input[type="email"] {
+#contact-container input[type="email"],
+#contact-container textarea {
   color: grey;
 }
 
@@ -227,11 +231,6 @@ body {
   background-color: rgb(244, 125, 118);
   color: rgb(249, 242, 225);
   font-size: 1em;
-}
-
-/* Height of the message textbox */
-#contact-message input[type="text"] {
-  height: 10em;
 }
 
 /********** Newsletter **********/
