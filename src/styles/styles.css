@@ -29,3 +29,42 @@ body {
     width: 100%;
     overflow-x: hidden !important;
 }
+
+/********** Description **********/
+#description-container {
+    color: rgb(56, 61, 86);
+}
+
+#description-container p {
+    font-family: Lato-Regular-Bold;
+    font-size: 1.8em;
+}
+
+#description-container span {
+    font-family: Lato-Bold;
+}
+
+#subscribe {
+    text-decoration: underline;
+    font-size: 16px;
+    color: rgb(244, 125, 118);
+    font-size: 1.5em;
+    font-family: Lato-Bold;
+}
+
+@media (max-width: 540px) {
+    #description-container h1 {
+        font-size: 1.5em;
+        line-height: 1.1;
+    }
+
+    #description-container p,
+    #description-container span {
+        font-family: Lato-Regular-Bold;
+        font-size: 16px;
+    }
+
+    #subscribe {
+        font-size: 0.87em;
+    }
+}
