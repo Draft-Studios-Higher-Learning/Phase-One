@@ -142,6 +142,60 @@ body {
   }
 }
 
+/********** Newsletter **********/
+#newsletter-container {
+  font-family: Lato-Bold;
+  background-color: rgb(244, 125, 118);
+  color: rgb(249, 242, 225);
+}
+
+#newsletter-container h1 {
+  font-size: 1em;
+}
+
+#newsletter-container input {
+  background-color: rgb(244, 125, 118);
+  color: rgb(249, 242, 225);
+}
+
+#newsletter-container input:placeholder-shown,
+::-webkit-input-placeholder {
+  color: rgb(249, 242, 225) !important;
+  opacity: 1;
+}
+
+#newsletter-container input[type="text"],
+#newsletter-container input[type="email"] {
+  color: rgb(249, 242, 225);
+}
+
+#newsletter-container button {
+  width: 100%;
+  padding: 6%;
+  background-color: rgb(249, 242, 225);
+  color: rgb(244, 125, 118);
+  font-size: 1em;
+}
+
+#newsletter-container br {
+  display: none;
+}
+
+@media (max-width: 540px) {
+  #newsletter-container h1 {
+    font-size: 1.4em;
+  }
+
+  #newsletter-container br {
+    display: block;
+  }
+
+  #newsletter-container button {
+    width: 100%;
+    padding: 2%;
+  }
+}
+
 /********** Footer **********/
 footer {
   background-color: rgb(56, 61, 86);
