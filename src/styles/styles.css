@@ -68,3 +68,76 @@ body {
         font-size: 0.87em;
     }
 }
+
+/********** About **********/
+#about-container {
+    background-color: rgb(56, 61, 86);
+    width: 100%;
+    color: rgb(249, 242, 225);
+}
+
+#about-container h1 {
+    font-size: 3em;
+}
+
+#about-container .row .col p span {
+    text-decoration: underline;
+    font-family: Lato-Regular-Bold;
+}
+
+#about-container .row .col p {
+    font-family: Lato-Regular;
+    font-size: 1.4em;
+}
+
+/* Download btn id */
+#download-pdf {
+    font-family: Lato-Regular;
+    background-color: #F47D76;
+    color: rgb(249, 242, 225);
+    padding: 3% 0 3%;
+}
+
+/* Download btn class */
+.btn-default {
+    width: 75%;
+}
+
+@media (max-width: 980px) {
+    #about-container h1 {
+        font-size: 1.5em;
+    }
+
+    #about-container .row .col p {
+        font-size: 0.95em;
+    }
+
+    #download-pdf {
+        font-size: 0.85em;
+        padding: 3.2% 0 3.2%;
+    }
+}
+
+/* SM screen size */
+@media (max-width: 540px) {
+    #about-container h1 {
+        font-size: 1.7em;
+    }
+
+    #about-container .col {
+        padding: 0 !important;
+    }
+
+    #download-pdf {
+        font-size: 0.85em;
+        padding: 4.3% 0 4.3%;
+    }
+
+    .btn-default {
+        width: 100%;
+    }
+
+    #about-container .row .col p {
+        font-size: 0.95em;
+    }
+}
