@@ -24,6 +24,11 @@
   src: url("../fonts/Lato-Bold.ttf");
 }
 
+@font-face {
+  font-family: Lato-Semi-Italic;
+  src: url("../fonts/Lato-SemiboldItalic.ttf");
+}
+
 body {
   font-family: "Times New Roman", Times, serif !important;
   width: 100%;
@@ -141,6 +146,58 @@ body {
     font-size: 0.95em;
   }
 }
+
+/********** Purchase **********/
+#purchase-container {
+  color: rgb(56, 61, 86);
+}
+
+#bulk-col h1,
+#single-col h1 {
+  line-height: 0.9;
+  font-size: 3em;
+}
+
+#purchase-container #quote {
+  font-family: Lato-Regular-Bold;
+  font-size: 1.3em;
+}
+
+#purchase-container #names {
+  font-family: Lato-Semi-Italic;
+  font-size: 1.3em;
+}
+
+/* purchasing buttons style */
+#bulk-col a,
+#single-col a {
+  width: 100%;
+  background-color: #f47d76;
+  color: rgb(249, 242, 225);
+  font-family: Lato-Regular-Bold;
+  font-size: 1.1em;
+}
+
+@media (max-width: 760px) {
+  #bulk-col a,
+  #single-col a {
+    font-size: 0.8em;
+  }
+
+  #purchase-container #quote {
+    font-size: 1em;
+  }
+
+  #purchase-container #names {
+    font-size: 1em;
+  }
+
+  #bulk-col h1,
+  #single-col h1 {
+    font-size: 2em;
+  }
+}
+
 /********** Contact **********/
 #contact-container {
   background-color: rgb(249, 242, 225);
