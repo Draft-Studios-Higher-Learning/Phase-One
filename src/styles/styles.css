@@ -1,0 +1,31 @@
+/********** Fonts **********/
+@font-face {
+    font-family: Lato-Regular;
+    src: url('./fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato-Medium-Regular;
+    src: url('./fonts/Lato-Medium.ttf');
+}
+
+@font-face {
+    font-family: Lato-Regular-Bold;
+    src: url('./fonts/Lato-Semibold.ttf');
+}
+
+@font-face {
+    font-family: Lato-Light-Regular;
+    src: url('./fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url('./fonts/Lato-Bold.ttf');
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+    width: 100%;
+    overflow-x: hidden !important;
+}
