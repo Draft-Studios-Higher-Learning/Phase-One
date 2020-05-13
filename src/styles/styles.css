@@ -141,6 +141,41 @@ body {
     font-size: 0.95em;
   }
 }
+/********** Contact **********/
+#contact-container {
+  background-color: rgb(249, 242, 225);
+  color: rgb(56, 61, 86);
+  font-family: Lato-Regular;
+}
+
+#contact-container input {
+  color: grey;
+}
+
+#contact-container input:placeholder-shown,
+#contact-container input::-webkit-input-placeholder {
+  color: grey !important;
+  opacity: 1;
+}
+
+#contact-container input[type="text"],
+#contact-container input[type="email"] {
+  color: grey;
+}
+
+/* Style Submit Button */
+#contact-container form button {
+  width: 100%;
+  padding: 2%;
+  background-color: rgb(244, 125, 118);
+  color: rgb(249, 242, 225);
+  font-size: 1em;
+}
+
+/* Height of the message textbox */
+#contact-message input[type="text"] {
+  height: 10em;
+}
 
 /********** Newsletter **********/
 #newsletter-container {
