@@ -1,0 +1,450 @@
+/********** Fonts **********/
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lato-Medium-Regular;
+  src: url("../fonts/Lato-Medium.ttf");
+}
+
+@font-face {
+  font-family: Lato-Regular-Bold;
+  src: url("../fonts/Lato-Semibold.ttf");
+}
+
+@font-face {
+  font-family: Lato-Light-Regular;
+  src: url("../fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: Lato-Semi-Italic;
+  src: url("../fonts/Lato-SemiboldItalic.ttf");
+}
+
+body {
+  font-family: "Times New Roman", Times, serif !important;
+  width: 100%;
+  overflow-x: hidden !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+/********** Description **********/
+#description-container {
+  color: rgb(56, 61, 86);
+}
+
+#description-container p {
+  font-family: Lato-Regular-Bold;
+  font-size: 1.8em;
+}
+
+#description-container span {
+  font-family: Lato-Bold;
+}
+
+#subscribe {
+  text-decoration: underline;
+  font-size: 16px;
+  color: rgb(244, 125, 118);
+  font-size: 1.5em;
+  font-family: Lato-Bold;
+}
+/* Red Banner Section */
+#red-banner{
+    background: #F47D76;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#red-banner-text{
+    padding: 50px;
+    color: white;
+    font-size: 2.5em;
+    font-family: Lato;
+}
+#red-banner-text span{
+    font-size: 0.5em;
+}
+/* Hero Section */
+#hero-img{
+    background: red;
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+#hero-info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+#hero-card-container{
+    font-size: 1.07em;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#hero-text{
+    padding-top: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hero-button{
+    background-color: #F47D76;
+    color: rgb(249, 242, 225);
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: Lato-Bold;
+    border-radius: 3px;
+    font-size: 1.05em;
+}
+nav{
+    color: #383D56;
+    font-family: Lato-Bold;
+    font-size: 1.2em;
+    left: 5;
+    width: 100%;
+}
+.nav-item{
+    color: #383D56;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.nav-link a{
+    color: #383D56;
+    text-decoration: none;
+}
+.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.icon-container{
+    margin-left: 10px;
+    padding: 3px;
+    margin-top: 3px;
+
+}
+.icon-container img{
+    margin-right: 8px; 
+}
+
+@media (max-width: 540px) {
+    .icon-container{
+        margin-left: 0px;
+    }
+    #hero-card-container{
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 1.6rem;
+        
+    }
+    #hero-text{
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #hero-button{
+        font-size: 0.7em !important;
+    }
+    .navbar-nav {
+        height: 100vh !important;
+      }
+    #red-banner{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        line-height: 45px;
+        font-size: 0.8em;
+    }
+    #red-banner span {
+        line-height: 7px;
+        font-size: 0.5em;
+    }
+}
+@media (max-width: 980px) {
+}
+@media (max-width: 760px) {
+}
+
+
+
+@media (max-width: 540px) {
+  #description-container h1 {
+    font-size: 1.5em;
+    line-height: 1.1;
+  }
+
+  #description-container p,
+  #description-container span {
+    font-family: Lato-Regular-Bold;
+    font-size: 16px;
+  }
+
+  #subscribe {
+    font-size: 0.87em;
+  }
+}
+
+/********** About **********/
+#about-container {
+  background-color: rgb(56, 61, 86);
+  width: 100%;
+  color: rgb(249, 242, 225);
+}
+
+#about-container h1 {
+  font-size: 3em;
+}
+
+#about-container .row .col p span {
+  text-decoration: underline;
+  font-family: Lato-Regular-Bold;
+}
+
+#about-container .row .col p {
+  font-family: Lato-Regular;
+  font-size: 1.4em;
+}
+
+/* Download btn id */
+#download-pdf {
+  font-family: Lato-Regular;
+  background-color: #f47d76;
+  color: rgb(249, 242, 225);
+  padding: 3% 0 3%;
+}
+
+/* Download btn class */
+.btn-default {
+  width: 75%;
+}
+
+@media (max-width: 980px) {
+  #about-container h1 {
+    font-size: 1.5em;
+  }
+
+  #about-container .row .col p {
+    font-size: 0.95em;
+  }
+
+  #download-pdf {
+    font-size: 0.85em;
+    padding: 3.2% 0 3.2%;
+  }
+}
+
+/* SM screen size */
+@media (max-width: 540px) {
+  #about-container h1 {
+    font-size: 1.7em;
+  }
+
+  #about-container .col {
+    padding: 0 !important;
+  }
+
+  #download-pdf {
+    font-size: 0.85em;
+    padding: 4.3% 0 4.3%;
+  }
+
+  .btn-default {
+    width: 100%;
+  }
+
+  #about-container .row .col p {
+    font-size: 0.95em;
+  }
+}
+
+/********** Purchase **********/
+#purchase-container {
+  color: rgb(56, 61, 86);
+}
+
+#bulk-col h1,
+#single-col h1 {
+  line-height: 0.9;
+  font-size: 3em;
+}
+
+#purchase-container #quote {
+  font-family: Lato-Regular-Bold;
+  font-size: 1.3em;
+}
+
+#purchase-container #names {
+  font-family: Lato-Semi-Italic;
+  font-size: 1.3em;
+}
+
+/* purchasing buttons style */
+#bulk-col a,
+#single-col a {
+  width: 100%;
+  background-color: #f47d76;
+  color: rgb(249, 242, 225);
+  font-family: Lato-Regular-Bold;
+  font-size: 1.1em;
+}
+
+@media (max-width: 760px) {
+  #bulk-col a,
+  #single-col a {
+    font-size: 0.8em;
+  }
+
+  #purchase-container #quote {
+    font-size: 1em;
+  }
+
+  #purchase-container #names {
+    font-size: 1em;
+  }
+
+  #bulk-col h1,
+  #single-col h1 {
+    font-size: 2em;
+  }
+}
+
+/********** Contact **********/
+#contact-container {
+  background-color: rgb(249, 242, 225);
+  color: rgb(56, 61, 86);
+  font-family: Lato-Regular;
+}
+
+#contact-container input,
+#contact-message textarea {
+  color: grey;
+}
+
+#contact-message textarea:placeholder-shown,
+#contact-message textarea::-webkit-input-placeholder,
+#contact-container input:placeholder-shown,
+#contact-container input::-webkit-input-placeholder {
+  color: grey !important;
+  opacity: 1;
+}
+
+#contact-container input[type="text"],
+#contact-container input[type="email"],
+#contact-container textarea {
+  color: grey;
+}
+
+/* Style Submit Button */
+#contact-container form button {
+  width: 100%;
+  padding: 2%;
+  background-color: rgb(244, 125, 118);
+  color: rgb(249, 242, 225);
+  font-size: 1em;
+}
+
+/********** Newsletter **********/
+#newsletter-container {
+  font-family: Lato-Bold;
+  background-color: rgb(244, 125, 118);
+  color: rgb(249, 242, 225);
+}
+
+#newsletter-container h1 {
+  font-size: 1em;
+}
+
+#newsletter-container input {
+  background-color: rgb(244, 125, 118);
+  color: rgb(249, 242, 225);
+}
+
+#newsletter-container input:placeholder-shown,
+::-webkit-input-placeholder {
+  color: rgb(249, 242, 225) !important;
+  opacity: 1;
+}
+
+#newsletter-container input[type="text"],
+#newsletter-container input[type="email"] {
+  color: rgb(249, 242, 225);
+}
+
+#newsletter-container button {
+  width: 100%;
+  padding: 6%;
+  background-color: rgb(249, 242, 225);
+  color: rgb(244, 125, 118);
+  font-size: 1em;
+}
+
+#newsletter-container br {
+  display: none;
+}
+
+@media (max-width: 540px) {
+  #newsletter-container h1 {
+    font-size: 1.4em;
+  }
+
+  #newsletter-container br {
+    display: block;
+  }
+
+  #newsletter-container button {
+    width: 100%;
+    padding: 2%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/********** Footer **********/
+footer {
+  background-color: rgb(56, 61, 86);
+  color: rgb(249, 242, 225);
+}
+
+footer p br {
+  display: none;
+}
+
+@media (max-width: 540px) {
+  footer p br {
+    display: block;
+  }
+}
+
+
+
+
