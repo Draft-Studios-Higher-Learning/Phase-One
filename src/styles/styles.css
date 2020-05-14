@@ -251,26 +251,19 @@ nav {
   #about-container .row .col p {
     font-size: 0.95em;
   }
-
-  #download-pdf {
-    font-size: 0.85em;
-    padding: 3.2% 0 3.2%;
-  }
 }
 
 /* SM screen size */
 @media (max-width: 540px) {
   #about-container h1 {
     font-size: 1.7em;
+    padding-top: 10%;
   }
 
   #about-container .col {
-    padding: 0 !important;
-  }
-
-  #download-pdf {
-    font-size: 0.85em;
-    padding: 4.3% 0 4.3%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 15%;
   }
 
   .btn-default {
