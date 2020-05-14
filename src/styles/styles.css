@@ -1,5 +1,10 @@
 /********** Fonts **********/
 @font-face {
+  font-family: BigCaslon-Medium;
+  src: url("../fonts/BigCaslon.ttf");
+}
+
+@font-face {
   font-family: Lato-Regular;
   src: url("../fonts/Lato-Regular.ttf");
 }
@@ -30,7 +35,7 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif !important;
+  font-family: BigCaslon-Medium !important;
   width: 100%;
   overflow-x: hidden !important;
 }
@@ -105,7 +110,7 @@ body {
 #hero-text {
   padding-top: 60px;
   color: white;
-  font-family: "Times New Roman", Times, serif;
+  font-family: BigCaslon-Medium;
 }
 #hero-button {
   background-color: #f47d76;
@@ -163,7 +168,7 @@ nav {
     text-align: center;
     padding-top: 20px;
     color: white;
-    font-family: "Times New Roman", Times, serif;
+    font-family: BigCaslon-Medium;
   }
   #hero-button {
     font-size: 0.7em !important;
@@ -172,7 +177,7 @@ nav {
     height: 100vh !important;
   }
   #red-banner {
-    font-family: "Times New Roman", Times, serif;
+    font-family: BigCaslon-Medium;
     text-align: center;
     line-height: 45px;
     font-size: 0.8em;
