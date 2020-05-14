@@ -34,17 +34,18 @@ body {
   width: 100%;
   overflow-x: hidden !important;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
 
 /********** Description **********/
 #description-container {
@@ -60,7 +61,7 @@ html, body {
   font-family: Lato-Bold;
 }
 
-#subscribe {
+#subscribe a {
   text-decoration: underline;
   font-size: 16px;
   color: rgb(244, 125, 118);
@@ -68,127 +69,123 @@ html, body {
   font-family: Lato-Bold;
 }
 /* Red Banner Section */
-#red-banner{
-    background: #F47D76;
-    padding-top: 30px;
-    padding-bottom: 30px;
+#red-banner {
+  background: #f47d76;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-#red-banner-text{
-    padding: 50px;
-    color: white;
-    font-size: 2.5em;
-    font-family: Lato;
+#red-banner-text {
+  padding: 50px;
+  color: white;
+  font-size: 2.5em;
+  font-family: Lato;
 }
-#red-banner-text span{
-    font-size: 0.5em;
+#red-banner-text span {
+  font-size: 0.5em;
 }
 /* Hero Section */
-#hero-img{
-    background: red;
-    padding-top: 150px;
-    padding-bottom: 250px;
+#hero-img {
+  background: red;
+  padding-top: 150px;
+  padding-bottom: 250px;
 }
-#hero-info{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: white;
+#hero-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
 }
-#hero-card-container{
-    font-size: 1.07em;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+#hero-card-container {
+  font-size: 1.07em;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-#hero-text{
-    padding-top: 60px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+#hero-text {
+  padding-top: 60px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
 }
-#hero-button{
-    background-color: #F47D76;
-    color: rgb(249, 242, 225);
-    margin-bottom: 20px;
-    width: 100%;
-    font-family: Lato-Bold;
-    border-radius: 3px;
-    font-size: 1.05em;
+#hero-button {
+  background-color: #f47d76;
+  color: rgb(249, 242, 225);
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: Lato-Bold;
+  border-radius: 3px;
+  font-size: 1.05em;
 }
-nav{
-    color: #383D56;
-    font-family: Lato-Bold;
-    font-size: 1.2em;
-    left: 5;
-    width: 100%;
+nav {
+  color: #383d56;
+  font-family: Lato-Bold;
+  font-size: 1.2em;
+  left: 5;
+  width: 100%;
 }
-.nav-item{
-    color: #383D56;
-    margin-left: 10px;
-    text-decoration: none;
+.nav-item {
+  color: #383d56;
+  margin-left: 10px;
+  text-decoration: none;
 }
-.nav-link a{
-    color: #383D56;
-    text-decoration: none;
+.nav-link a {
+  color: #383d56;
+  text-decoration: none;
 }
 .divider {
-    height: 1px;
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #e5e5e5;
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
 }
-.icon-container{
-    margin-left: 10px;
-    padding: 3px;
-    margin-top: 3px;
-
+.icon-container {
+  margin-left: 10px;
+  padding: 3px;
+  margin-top: 3px;
 }
-.icon-container img{
-    margin-right: 8px; 
+.icon-container img {
+  margin-right: 8px;
 }
 
 @media (max-width: 540px) {
-    .icon-container{
-        margin-left: 0px;
-    }
-    #hero-card-container{
-        width: 100%;
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 35px;
-        margin-bottom: 35px;
-        font-size: 1.6rem;
-        
-    }
-    #hero-text{
-        text-align: center;
-        padding-top: 20px;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #hero-button{
-        font-size: 0.7em !important;
-    }
-    .navbar-nav {
-        height: 100vh !important;
-      }
-    #red-banner{
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-        line-height: 45px;
-        font-size: 0.8em;
-    }
-    #red-banner span {
-        line-height: 7px;
-        font-size: 0.5em;
-    }
+  .icon-container {
+    margin-left: 0px;
+  }
+  #hero-card-container {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 1.6rem;
+  }
+  #hero-text {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #hero-button {
+    font-size: 0.7em !important;
+  }
+  .navbar-nav {
+    height: 100vh !important;
+  }
+  #red-banner {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    line-height: 45px;
+    font-size: 0.8em;
+  }
+  #red-banner span {
+    line-height: 7px;
+    font-size: 0.5em;
+  }
 }
 @media (max-width: 980px) {
 }
 @media (max-width: 760px) {
 }
-
-
 
 @media (max-width: 540px) {
   #description-container h1 {
@@ -420,15 +417,6 @@ nav{
   }
 }
 
-
-
-
-
-
-
-
-
-
 /********** Footer **********/
 footer {
   background-color: rgb(56, 61, 86);
@@ -444,7 +432,3 @@ footer p br {
     display: block;
   }
 }
-
-
-
-
