@@ -356,6 +356,12 @@ nav {
   font-family: Lato-Regular;
 }
 
+@media (max-width: 540px) {
+  #contact-container iframe {
+    width: 100%;
+  }
+}
+
 
 /********** Newsletter **********/
 #newsletter-container {
@@ -390,7 +396,7 @@ nav {
   }
 
   #newsletter-container button {
-    /* width: 100%; */
+    width: 80%;
     padding: 2%;
   }
 }
