@@ -243,7 +243,9 @@ nav {
   font-size: 3em;
 }
 
-#about-container .row .col p span {
+#about-container a {
+  text-decoration: none;
+  color: rgb(249, 242, 225);
   text-decoration: underline;
   font-family: Lato-Regular-Bold;
 }
