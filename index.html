@@ -293,6 +293,30 @@
   <!-- End of Footer -->
 
 
+  <!-- MainChimp Pop-up -->
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>  <!-- <script type="text/javascript">
+    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us7.list-manage.com","uuid":"c47f5a333ac3f94faa21be781","lid":"755eb509e6","uniqueMethods":true}) })
+    </script>  -->
+    <script type="text/javascript">
+    function showMailingPopUp() {
+    window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+      L.start({
+        baseUrl: "mc.us7.list-manage.com",
+        uuid: "c47f5a333ac3f94faa21be781",
+        lid: "755eb509e6",
+        "uniqueMethods":true
+      });
+    });
+    document.cookie =
+      "MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    document.cookie =
+      "MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+  }
+  document.getElementById("open-popup").onclick = function () {
+    showMailingPopUp();
+    console.log('Test');
+  };
+  </script>
   <!-- BootStrap JQuery and then JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
