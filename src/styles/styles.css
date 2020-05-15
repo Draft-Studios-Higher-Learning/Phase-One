@@ -39,15 +39,18 @@ body {
   width: 100%;
   overflow-x: hidden !important;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   overflow-x: hidden;
 }
+
 body {
   position: relative;
 }
@@ -73,32 +76,38 @@ body {
   font-size: 1.5em;
   font-family: Lato-Bold;
 }
+
 /* Red Banner Section */
 #red-banner {
   background: #f47d76;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 #red-banner-text {
   padding: 50px;
   color: white;
   font-size: 2.5em;
   font-family: Lato;
 }
+
 #red-banner-text span {
   font-size: 0.5em;
 }
+
 /* Hero Section */
 #hero-img {
   background: red;
   padding-top: 150px;
   padding-bottom: 250px;
 }
+
 #hero-info {
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
 }
+
 #hero-card-container {
   font-size: 1.07em;
   margin-left: 80px;
@@ -112,6 +121,7 @@ body {
   color: white;
   font-family: BigCaslon-Medium;
 }
+
 #hero-button {
   background-color: #f47d76;
   color: rgb(249, 242, 225);
@@ -121,6 +131,7 @@ body {
   border-radius: 3px;
   font-size: 1.05em;
 }
+
 nav {
   color: #383d56;
   font-family: Lato-Bold;
@@ -128,26 +139,31 @@ nav {
   left: 5;
   width: 100%;
 }
+
 .nav-item {
   color: #383d56;
   margin-left: 10px;
   text-decoration: none;
 }
+
 .nav-link a {
   color: #383d56;
   text-decoration: none;
 }
+
 .divider {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
+
 .icon-container {
   margin-left: 10px;
   padding: 3px;
   margin-top: 3px;
 }
+
 .icon-container img {
   margin-right: 8px;
 }
@@ -156,6 +172,7 @@ nav {
   .icon-container {
     margin-left: 0px;
   }
+
   #hero-card-container {
     width: 100%;
     margin-left: 40px;
@@ -164,33 +181,38 @@ nav {
     margin-bottom: 35px;
     font-size: 1.6rem;
   }
+
   #hero-text {
     text-align: center;
     padding-top: 20px;
     color: white;
     font-family: BigCaslon-Medium;
   }
+
   #hero-button {
     font-size: 0.7em !important;
   }
+
   .navbar-nav {
     height: 100vh !important;
   }
+
   #red-banner {
     font-family: BigCaslon-Medium;
     text-align: center;
     line-height: 45px;
     font-size: 0.8em;
   }
+
   #red-banner span {
     line-height: 7px;
     font-size: 0.5em;
   }
 }
-@media (max-width: 980px) {
-}
-@media (max-width: 760px) {
-}
+
+@media (max-width: 980px) {}
+
+@media (max-width: 760px) {}
 
 @media (max-width: 540px) {
   #description-container h1 {
@@ -307,6 +329,7 @@ nav {
 }
 
 @media (max-width: 760px) {
+
   #bulk-col a,
   #single-col a {
     font-size: 0.8em;
@@ -333,33 +356,12 @@ nav {
   font-family: Lato-Regular;
 }
 
-#contact-container input,
-#contact-message textarea {
-  color: grey;
+@media (max-width: 540px) {
+  #contact-container iframe {
+    width: 100%;
+  }
 }
 
-#contact-message textarea:placeholder-shown,
-#contact-message textarea::-webkit-input-placeholder,
-#contact-container input:placeholder-shown,
-#contact-container input::-webkit-input-placeholder {
-  color: grey !important;
-  opacity: 1;
-}
-
-#contact-container input[type="text"],
-#contact-container input[type="email"],
-#contact-container textarea {
-  color: grey;
-}
-
-/* Style Submit Button */
-#contact-container form button {
-  width: 100%;
-  padding: 2%;
-  background-color: rgb(244, 125, 118);
-  color: rgb(249, 242, 225);
-  font-size: 1em;
-}
 
 /********** Newsletter **********/
 #newsletter-container {
@@ -369,31 +371,15 @@ nav {
 }
 
 #newsletter-container h1 {
-  font-size: 1em;
-}
-
-#newsletter-container input {
-  background-color: rgb(244, 125, 118);
-  color: rgb(249, 242, 225);
-}
-
-#newsletter-container input:placeholder-shown,
-::-webkit-input-placeholder {
-  color: rgb(249, 242, 225) !important;
-  opacity: 1;
-}
-
-#newsletter-container input[type="text"],
-#newsletter-container input[type="email"] {
-  color: rgb(249, 242, 225);
+  font-size: 1.1em;
 }
 
 #newsletter-container button {
-  width: 100%;
-  padding: 6%;
   background-color: rgb(249, 242, 225);
   color: rgb(244, 125, 118);
   font-size: 1em;
+  width: 30%;
+  padding: 0.5%;
 }
 
 #newsletter-container br {
@@ -410,7 +396,7 @@ nav {
   }
 
   #newsletter-container button {
-    width: 100%;
+    width: 80%;
     padding: 2%;
   }
 }
