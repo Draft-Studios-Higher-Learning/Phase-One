@@ -125,7 +125,7 @@
         <div class="text-uppercase" id="subscribe">
           <a href=" https://medium.com/higher-learning" target="_blank">Follow Higher Learning on Medium</a>
           <br>
-          <a href="#">subscribe to the Newletter</a>
+          <a href="#">subscribe to the Newsletter</a>
         </div>
         <!-- End of Subscription link -->
         <div class="row d-flex justify-content-center pt-4 px-5">
@@ -239,8 +239,10 @@
     </div>
     <!-- Form -->
     <div class="form-row d-flex justify-content-center">
-      <div class="col-md-8 form-group">    
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdi27dxNm1VmBYqsYtbuqMsDo3dIS3jAipr7MZDXmd_BIQl4w/viewform?embedded=true" width="650" height="1220" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <div class="col-md-8 form-group">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdi27dxNm1VmBYqsYtbuqMsDo3dIS3jAipr7MZDXmd_BIQl4w/viewform?embedded=true"
+          width="650" height="1220" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
     <!-- End of Form -->
@@ -255,29 +257,14 @@
       </div>
     </div>
     <!-- End of Header -->
-
-    <!-- Start of the Form -->
-    <form class="form-md-inline">
-      <div class="row px-md-5 mx-md-5">
-        <!-- First Name -->
-        <div class="col-md form-group px-md-1">
-          <input type="text" class="form-control border border-light" placeholder="First Name">
-        </div>
-        <!-- Second Name -->
-        <div class="col-md form-group px-md-1">
-          <input type="text" class="form-control border border-light" placeholder="Second Name">
-        </div>
-        <!-- Email -->
-        <div class="col-md form-group px-md-1">
-          <input type="email" class="form-control border border-light" placeholder="Email">
-        </div>
-        <!-- Submit -->
-        <div class="col-md-1 form-group px-md-1">
-          <button type="submit" target="_blank" class="btn btn-lg text-uppercase">Submit</button>
-        </div>
+    <!-- Form -->
+    <div class="row">
+      <div class="col pb-4">
+        <button class="btn btn-sm text-uppercase" id="open-popup"
+          onclick="showMailingPopUp(); return false;">subscribe</button>
       </div>
-    </form>
-    <!-- End of the Form -->
+    </div>
+    <!-- Form End -->
   </div>
   <!-- End of Newletter -->
   <!-- *** Footer *** -->
@@ -294,28 +281,27 @@
 
 
   <!-- MainChimp Pop-up -->
-  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>  <!-- <script type="text/javascript">
-    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us7.list-manage.com","uuid":"c47f5a333ac3f94faa21be781","lid":"755eb509e6","uniqueMethods":true}) })
-    </script>  -->
-    <script type="text/javascript">
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"></script>
+  <script type="text/javascript">
     function showMailingPopUp() {
-    window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
-      L.start({
-        baseUrl: "mc.us7.list-manage.com",
-        uuid: "c47f5a333ac3f94faa21be781",
-        lid: "755eb509e6",
-        "uniqueMethods":true
+      window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+          baseUrl: "mc.us7.list-manage.com",
+          uuid: "c47f5a333ac3f94faa21be781",
+          lid: "755eb509e6",
+          "uniqueMethods": true
+        });
       });
-    });
-    document.cookie =
-      "MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
-    document.cookie =
-      "MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
-  }
-  document.getElementById("open-popup").onclick = function () {
-    showMailingPopUp();
-    console.log('Test');
-  };
+      document.cookie =
+        "MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+      document.cookie =
+        "MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    }
+    document.getElementById("open-popup").onclick = function () {
+      showMailingPopUp();
+      console.log('Test');
+    };
   </script>
   <!-- BootStrap JQuery and then JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
