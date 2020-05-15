@@ -75,6 +75,7 @@ body {
   color: rgb(244, 125, 118);
   font-size: 1.5em;
   font-family: Lato-Bold;
+  cursor: pointer;
 }
 
 /* Red Banner Section */
