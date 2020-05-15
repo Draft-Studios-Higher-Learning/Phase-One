@@ -75,6 +75,7 @@ body {
   color: rgb(244, 125, 118);
   font-size: 1.5em;
   font-family: Lato-Bold;
+  cursor: pointer;
 }
 
 /* Red Banner Section */
@@ -88,7 +89,7 @@ body {
   padding: 50px;
   color: white;
   font-size: 2.5em;
-  font-family: Lato;
+  font-family: BigCaslon-Medium;
 }
 
 #red-banner-text span {
@@ -242,7 +243,9 @@ nav {
   font-size: 3em;
 }
 
-#about-container .row .col p span {
+#about-container a {
+  text-decoration: none;
+  color: rgb(249, 242, 225);
   text-decoration: underline;
   font-family: Lato-Regular-Bold;
 }
