@@ -184,7 +184,7 @@ nav {
   }
 
   #hero-text {
-    
+
     padding-top: 20px;
     color: white;
     font-family: BigCaslon-Medium;
@@ -212,14 +212,12 @@ nav {
 }
 
 @media (max-width: 980px) {
-  #aboutcontainer{
+  #aboutcontainer {
     height: 10px;
   }
 }
 
-@media (max-width: 760px) {
-
-}
+@media (max-width: 760px) {}
 
 @media (max-width: 540px) {
   #description-container h1 {
@@ -274,70 +272,82 @@ nav {
   width: 75%;
 
 }
-#hero-text{
-  padding-left: 10%; 
-  padding-right: 10%; 
-  padding-top:15%;
+
+#hero-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
   font-size: 0.9em;
 }
-#hero-new-button{
- padding-left: 75px;
- padding-right: 60px;
+
+#hero-new-button {
+  padding-left: 75px;
+  padding-right: 60px;
 }
+
 @media (max-width: 1190px) {
-  #hero-text{
-  font-size: 0.7em;
+  #hero-text {
+    font-size: 0.7em;
 
   }
-  #hero-new-button{
-  padding-left: 60px;
-  padding-right: 70px;
+
+  #hero-new-button {
+    padding-left: 60px;
+    padding-right: 70px;
+  }
 }
+
 @media (max-width: 990px) {
-  #hero-text{
-  padding-left: 8%; 
-  padding-right: 8%; 
-  padding-top:12%;
-  font-size: 0.7em;
+  #hero-text {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 12%;
+    font-size: 0.7em;
 
 
   }
 }
+
 @media (max-width: 970px) {
-  #hero-text{
-  font-size: 1.3em;
+  #hero-text {
+    font-size: 1.3em;
 
   }
-  #hero-new-button{
-  padding-left: 40px;
-  padding-right: 50px;
+
+  #hero-new-button {
+    padding-left: 40px;
+    padding-right: 50px;
   }
 }
+
 @media (max-width: 900px) {
-  #hero-text{
-  padding-left: 6%; 
-  padding-right: 6%; 
-  padding-top:10%;
-  font-size: 1.3em;
+  #hero-text {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 10%;
+    font-size: 1.3em;
 
   }
-  #hero-new-button{
-  padding-left: 30px;
-  padding-right: 50px;
+
+  #hero-new-button {
+    padding-left: 30px;
+    padding-right: 50px;
   }
 }
+
 @media (max-width: 858px) {
-  #hero-text{
+  #hero-text {
     padding-left: 5%;
-    padding-right: 4%; 
-    padding-top:8%;
+    padding-right: 4%;
+    padding-top: 8%;
     font-size: 1.2em;
 
   }
-  #hero-new-button{
+
+  #hero-new-button {
     padding-left: 30px;
     padding-right: 50px;
-    }
+  }
 }
 
 
@@ -350,6 +360,7 @@ nav {
     font-size: 0.95em;
   }
 }
+
 @media (max-width: 750px) {
   #about-container h1 {
     font-size: 4em;
@@ -372,16 +383,17 @@ nav {
 }
 
 @media (max-width: 650px) {
-  #hero-text{
+  #hero-text {
     padding-left: 8%;
-    padding-right: 4%; 
-    padding-top:8%;
+    padding-right: 4%;
+    padding-top: 8%;
     font-size: 0.8em;
   }
-  #hero-new-button{
+
+  #hero-new-button {
     padding-left: 90px;
     padding-right: 90px;
-    }
+  }
 }
 
 
