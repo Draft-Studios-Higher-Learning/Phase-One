@@ -375,10 +375,11 @@ nav {
 
 @media (max-width: 650px) {
   #about-container #hero-text {
-    padding-left: 8%;
-    padding-right: 4%;
+    /* padding-left: 8%;
+    padding-right: 4%; */
     padding-top: 8%;
     font-size: 1.45em;
+    text-align: center;
   }
 
   #hero-new-button {
