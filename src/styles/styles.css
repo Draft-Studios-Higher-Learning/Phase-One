@@ -107,14 +107,6 @@ body {
   color: white;
 }
 
-#hero-card-container {
-  font-size: 1.07em;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-
 #hero-text {
   padding-top: 60px;
   color: white;
@@ -285,7 +277,7 @@ nav {
 
 @media (max-width: 1190px) {
   #about-container #hero-text {
-    font-size: 0.7em;
+    font-size: 1.4em;
   }
 
   #hero-new-button {
@@ -296,10 +288,10 @@ nav {
 
 @media (max-width: 990px) {
   #about-container #hero-text {
-    padding-left: 8%;
-    padding-right: 8%;
+    /* padding-left: 8%; */
+    /* padding-right: 8%; */
     padding-top: 12%;
-    font-size: 0.7em;
+    font-size: 1.4em;
   }
 }
 
@@ -317,7 +309,7 @@ nav {
 @media (max-width: 900px) {
   #about-container #hero-text {
     padding-left: 6%;
-    padding-right: 6%;
+    /* padding-right: 6%; */
     padding-top: 10%;
     font-size: 1.3em;
   }
@@ -333,7 +325,8 @@ nav {
     padding-left: 5%;
     padding-right: 4%;
     padding-top: 8%;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    text-align: center;
   }
 
   #hero-new-button {
